@@ -14,3 +14,9 @@
     }
 
 }
+
+@media  screen and (min-width: 1280px){
+    .home{
+        background-image: url(../assets/home/background-home-desktop.jpg);
+    }
+}

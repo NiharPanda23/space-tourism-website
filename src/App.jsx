@@ -7,10 +7,18 @@ import NavBar from "./component/NavBar";
 const App = () => (
   <>
     <NavBar />
-    <Home />
-    <Destination />
-    <Crew />
-    <Technology />
+    <section id="home">
+      <Home />
+    </section>
+    <section id="destination">
+      <Destination />
+    </section>
+    <section id="crew">
+      <Crew />
+    </section>
+    <section id="technology">
+      <Technology />
+    </section>
   </>
 )
 
