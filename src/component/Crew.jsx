@@ -1,6 +1,8 @@
+import Crews from './Crews'
 const Crew = () => {
   return (
-    <div>Crew</div>
+    <div><Crews/></div>
+    
   )
 }
 

@@ -1,6 +1,10 @@
+import Destinations from "./Destinations"
+
 const Destination = () => {
   return (
-    <div>Destination</div>
+    <div>
+      <Destinations/>
+    </div>
   )
 }
 

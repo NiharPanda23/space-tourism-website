@@ -1,6 +1,8 @@
+import Technologies from '../component/Technologies'
+
 const Technology = () => {
   return (
-    <div>Technology</div>
+    <div><Technologies/></div>
   )
 }
 

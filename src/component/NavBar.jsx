@@ -15,12 +15,12 @@ const NavBar = () => {
         </div>
         <div className="hidden lg:flex lg:w-[22rem]  lg:h-[1px] lg:my-auto lg:bg-slate-300 lg:backdrop-blur-2xl lg:backdrop-contrast-100 lg:backdrop-brightness-150 ml-4"></div>
         <div className="hidden md:flex lg:flex  md:bg-transparent md:backdrop-blur-2xl md:backdrop-contrast-75 md:backdrop-brightness-150 text-light-0 md:font-Barlow md:uppercase  md:w-[33rem] md:text-xl md:h-24  lg:w-[54rem] lg:text-2xl  lg:bg-transparent lg:backdrop-blur-2xl lg:backdrop-contrast-75 lg:backdrop-brightness-150">
-          <div className="flex justify-between md:flex md:justify-between md:space-x-6 md:mx-3 my-auto lg:mx-24 lg:space-x-12">
-            <div className="md:tracking-widest md:cursor-pointer md:hover:border-b-4 md:hover:border-b-slate-300 h-auto py-7"><a href="#home">00 Home</a></div>
-            <div className="md:tracking-widest md:cursor-pointer md:hover:border-b-4 md:hover:border-b-slate-300 h-auto py-7"><a href="#destination">01 Destination</a></div>
-            <div className="md:tracking-widest md:cursor-pointer md:hover:border-b-4 md:hover:border-b-slate-300 h-auto py-7"><a href="#crew">02 Crew</a></div>
-            <div className="md:tracking-widest md:cursor-pointer md:hover:border-b-4 md:hover:border-b-slate-300 h-auto py-7"><a href="#technology">03 Technology</a></div>
-          </div>
+          <ul className="flex justify-between md:flex md:justify-between md:space-x-6 md:mx-3 my-auto lg:mx-24 lg:space-x-12">
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-4"><a href="#home">00 Home</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-4"><a href="#destination">01 Destination</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-4"><a href="#crew">02 Crew</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-4"><a href="#technology">03 Technology</a></li>
+          </ul>
         </div>
         <div className="lg:hidden md:hidden" onClick={handelIconChange}>
           {open === true ? (
@@ -32,7 +32,7 @@ const NavBar = () => {
       </div>
       <div>
         {!open && (
-          <div className="transition-all ease-in-out absolute bg-transparent backdrop-blur-2xl backdrop-contrast-100 backdrop-brightness-125 flex flex-col right-0 w-64 h-screen top-0">
+          <div className="fixed bg-transparent backdrop-blur-2xl backdrop-contrast-100 backdrop-brightness-125 flex flex-col right-0 w-64 h-screen top-0">
             <div className="mt-16 w-full active:border-r-4 mb-2 font-Barlow tracking-widest uppercase hover:border-r-4 hover:border-slate-300">
               <a href="#home" className="text-light-0 mx-8 transition-all ease-in-out">00 Home</a>
             </div>
