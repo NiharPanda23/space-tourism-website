@@ -13,13 +13,13 @@ const NavBar = () => {
         <div>
           <img className="w-7 h-7 md:w-10 md:h-10 md:mt-8 md:ml-4  lg:w-12 lg:h-12 lg:mt-6 xl:ml-8" src={images.logo} alt="logo" />
         </div>
-        <div className="hidden lg:flex lg:w-[22rem]  lg:h-[1px] lg:my-auto lg:bg-slate-300 lg:backdrop-blur-2xl lg:backdrop-contrast-100 lg:backdrop-brightness-150 lg:ml-4 xl:w-[54rem] xl:ml-20"></div>
-        <div className="hidden md:flex lg:flex  md:bg-transparent md:backdrop-blur-2xl md:backdrop-contrast-75 md:backdrop-brightness-150 text-light-0 md:font-Barlow md:uppercase  md:w-[33rem] md:text-xl md:h-24  lg:w-[54rem] lg:text-2xl  lg:bg-transparent lg:backdrop-blur-2xl lg:backdrop-contrast-75 lg:backdrop-brightness-150">
-          <ul className="flex justify-between md:flex md:justify-between md:space-x-6 md:mx-3 my-auto lg:ml-20 lg:space-x-8 xl:space-x-14">
-            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4"><a href="#home">00 Home</a></li>
-            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4"><a href="#destination">01 Destination</a></li>
-            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4"><a href="#crew">02 Crew</a></li>
-            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4"><a href="#technology">03 Technology</a></li>
+        <div className="hidden lg:flex lg:w-[26rem] bg-slate-600 lg:h-[0.2px] lg:my-auto lg:bg-slate-7 text-[18px]00 lg:backdrop-blur-2xl lg:backdrop-contrast-100 lg:backdrop-brightness-150 lg:ml-16 xl:w-[54rem] xl:ml-20"></div>
+        <div className="hidden md:flex lg:flex  md:bg-transparent md:backdrop-blur-2xl md:backdrop-contrast-75 md:backdrop-brightness-150 text-light-0 md:font-Barlow md:uppercase  md:w-[33rem] md:text-xl md:h-24  lg:w-[45rem] lg:text-2xl  lg:bg-transparent lg:backdrop-blur-2xl lg:backdrop-contrast-75 lg:backdrop-brightness-150 xl:w-[54.5rem]">
+          <ul className="flex justify-between md:flex md:justify-between md:space-x-6 md:mx-5 my-auto lg:ml-20 lg:space-x-12 xl:space-x-14">
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4 text-[18px]"><a href="#home">00 Home</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4 text-[18px]"><a href="#destination">01 Destination</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4 text-[18px]"><a href="#crew">02 Crew</a></li>
+            <li className="md:tracking-widest md:cursor-pointer md:hover:underline md:hover:underline-offset-[34px] md:hover:decoration-2 lg:hover:decoration-4 text-[18px]"><a href="#technology">03 Technology</a></li>
           </ul>
         </div>
         <div className="lg:hidden md:hidden" onClick={handelIconChange}>
