@@ -2,24 +2,20 @@ import data from "../data.json";
 import { images } from "../constants";
 import { useState } from "react";
 
-console.log(data.destinations);
 
 const Destinations = () => {
-  useState;
   const [name, setName] = useState("");
-
-  console.log(name);
 
   return (
     <div className="destination w-full bg-cover h-screen bg-no-repeat flex flex-col text-light-0">
       {
         name === "" ? (<>
-          <h1 className="text-light-0 mt-20 font-Barlow ml-40 mb-10 text-[18px] tracking-[0.16em] uppercase md:mt-36 md:ml-16 md:text-[20px] lg:text-[28px] lg:mt-36 lg:ml-[7.5rem] xl:mt-44">
+          <h1 className="text-light-0 mt-20 font-Barlow text-center mb-10 text-[18px] tracking-[0.16em] uppercase md:mt-36 md:ml-16 md:text-left md:text-[20px] lg:text-[28px] lg:mt-36 lg:ml-[7.5rem] xl:mt-44 xl:ml-40">
           <span className="mr-2 text-[18px] text-slate-600 font-bold md:text-[20px] lg:text-[28px]">01</span>Pick your destination
         </h1>
       <div className="text-light-0 lg:flex lg:justify-between xl:mx-48">
         <div className="flex lg:w-1/2 lg:mt-20">
-          <img className="w-52 h-52 mx-auto md:w-56 md:h-56 lg:w-72 lg:h-72" src={images.moon} alt="Moon" />
+          <img className="w-52 h-52 mx-auto md:w-56 md:h-56 lg:w-72 lg:h-72 xl:w-96 xl:h-96" src={images.moon} alt="Moon" />
         </div>
         <div className="mx-10 md:mx-16 lg:w-1/2 xl:px-14 md:px-0 lg:px-0">
           <ul className="flex justify-between mx-20 mt-10 md:mx-32 lg:ml-0">
