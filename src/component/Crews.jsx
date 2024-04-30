@@ -36,7 +36,8 @@ const Crews = () => {
                   <div
                     key={i}
                     value={singleCrew.name}
-                    className="w-2 h-2 rounded-full bg-slate-500 "
+                    className="w-2 h-2 rounded-full bg-slate-500 lg:w-3 lg:h-3 hover:bg-white"
+                  
                     onClick={onclickHandler}
                   >
                     <span className="hidden">{singleCrew.role}</span>
@@ -85,16 +86,16 @@ const Crews = () => {
                 <div className="mx-10 md:mx-16 md:flex md:flex-col-reverse lg:w-1/2  md:px-0 lg:px-0 lg:mt-32 lg:ml-28 xl:ml-[-30px] xl:mt-44">
                   <div className="flex  justify-center space-x-4  mt-8  mb-9 md:mb-9 md:mt-4 lg:justify-start">
                     
-                      <div className="w-2 h-2 rounded-full bg-slate-500 " onClick={onclickHandler}>
+                      <div className="w-2 h-2 rounded-full bg-slate-500 lg:w-3 lg:h-3 hover:bg-white" onClick={onclickHandler}>
                         <span className="hidden">Commander</span>
                       </div>
-                      <div className="w-2 h-2 rounded-full bg-slate-500 " onClick={onclickHandler}>
+                      <div className="w-2 h-2 rounded-full bg-slate-500 lg:w-3 lg:h-3 hover:bg-white" onClick={onclickHandler}>
                         <span className="hidden">Mission Specialist</span>
                       </div>
-                      <div className="w-2 h-2 rounded-full bg-slate-500 " onClick={onclickHandler}>
+                      <div className="w-2 h-2 rounded-full bg-slate-500 lg:w-3 lg:h-3 hover:bg-white" onClick={onclickHandler}>
                         <span className="hidden">Pilot</span>
                       </div>
-                      <div className="w-2 h-2 rounded-full bg-slate-500 " onClick={onclickHandler}>
+                      <div className="w-2 h-2 rounded-full bg-slate-500 lg:w-3 lg:h-3 hover:bg-white" onClick={onclickHandler}>
                         <span className="hidden">Flight Engineer</span>
                       </div>
                   </div>
